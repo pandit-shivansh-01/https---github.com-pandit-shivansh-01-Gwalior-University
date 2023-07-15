@@ -1,0 +1,38 @@
+
+.banner1{
+	background-image: url(/public/images/campus/backg.jpg);
+	background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+}
+.infra{
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+	font-family: sans-serif;
+	margin-top: 350px;
+	text-shadow: 10px;
+}
+.campus2 img{
+	height: 300px;
+	margin: auto;
+	padding: auto;
+}
+.title::before, .title::after{
+	content: "";
+	height: 2px;
+	background-color: #000;
+	display: block;
+}
+.title{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	column-gap: 1.6 rem;
+	font-family: cursive;
+}
+.campus2 img:hover{
+	border-radius: 7%;
+	box-shadow: 5px 5px 12px black;
+}

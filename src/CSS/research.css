@@ -1,0 +1,50 @@
+.nav-link{
+	font-weight: bold;
+	color: black;
+	/*padding: 0 24px;*/
+}
+.navbar-expand-md .navbar-nav .nav-link{
+	padding: 0 20px;
+}
+.nav{
+	background-color: white;
+}
+.navbar-brand img{
+	height: 70px;
+	width: 80px;
+}
+.navbar-brand h3{
+	margin-left: 90px;
+	margin-top: -54px;
+}
+.researchbanner{
+	background-image: url(/public/images/research/patent1.jpg);
+	/* background-image: url(/public/images/slider1.jpg); */
+	background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+}
+.res{
+	height: 600px;
+	width: 550px;
+	margin-top: 50px;
+	padding: auto;
+	background-color: white;
+	margin-right: auto;
+	margin-left: 70px;
+	
+}
+.res:hover{
+	background-image:linear-gradient(to top left, #ccffff 20%, transparent 100%), url(/public/images/research/research2.jpg);
+	border-radius: 8%;
+	/*border: 2px solid black;*/
+	box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+.res2{
+	background-color: black;
+}
+.res2 p{
+	color: white;
+}
